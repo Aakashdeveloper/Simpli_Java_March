@@ -1,0 +1,50 @@
+**Window
+> Need to install gitbash for using git commands
+> https://git-scm.com/downloads
+
+**Mac & Linux
+> We can use terminal
+
+>
+
+/************
+First Time
+*************/
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testgit.git
+git push -u origin master
+
+
+/*************
+All Next Time
+***************/
+git add .
+git commit -m "added line in express file"
+git push
+
+
+/*************
+To check git connetion
+**************/
+git remote -v
+
+
+git status
+
+
+press esc :wq!
+
+If same file resolve conflict
+if diff file it will merge
+
+/***
+For creating branch
+****/
+
+git checkout -b <branchname>
+git add .
+git commit -m "a"
+git push -u origin <branchname>
