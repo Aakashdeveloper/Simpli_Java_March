@@ -1,0 +1,43 @@
+Basic operators = + - * / %
+Prefix/postfix = ++ --
+compound assignment operators = += -= /= *= %=
+
+
+string+string = string
+string+number = string
+number+string = string
+number+number = number
+
+1+"1"+"1" =111
+1+1+"1" =21
+"1"+1+1=111
+
+
+/////
+1-"A"
+NaN
+1-"1" = 0
+1+"1" = 11
+////
+
+
+Add +  1+2 3
+Sub -  1-2 -1
+Mul *  1*2 2
+Div /  1/2 .5
+modules %  4%2 =0
+
+
+//////////////////////
+Prefix/postfix = ++ --
+
+prefix applies operation before returning value;
+postfix applies operation after returning value;
+
+
+/////////////
+Compound assignment operators
+///////////
+combination of operation and assignment
+Applies result of right side to left side
+Store that result in variable on left side

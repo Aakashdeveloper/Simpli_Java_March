@@ -1,0 +1,73 @@
+
+Frontend => HTML,CSS,ANGULAR,REACT,Vue
+Backend=> Java, Node.js, Ruby, Python
+Database => MySql, Oracle, MongoDB
+
+////////////////////////
+JRE Vs JDK
+Java runtime env   vs java development kit
+
+
+JRE
+> Required to run Java App
+> End-users normally Required only JRE
+
+JDK
+> Provides tool require to create java App
+> Developers normally require JDK
+
+///To  Install java///
+http://bit.ly/psjdkdownload
+
+Mac/Linux
+> open terminal
+> java --version
+
+Window
+> C:\Program file\Java\jre1.8.0_51\bin
+> control-panel => system => adavancesystem setting => env variable => edit => user add path
+
+IDE
+NetBeans IDE  Oracle Stopped after JDK8  ==> Apache Java SE
+Intellij IDE Jet brains Java SE and Android
+Ecllipse 
+webstrome
+Vs
+
+
+Public static void main
+
+Public => every where we can access
+static => we can call this method directly without creating object
+void => return type
+main  => name
+
+
+//Comment//
+
+line comments > //
+Block comment =>  /*...*/
+Javadoc Comment  => /** ...*/
+
+
+///Primitive data Types ///
+Build into the lanaguage
+Foundation of all other Types
+
+Integer
+Floating Point
+Character
+Boolean
+
+Intergers Types
+ Type   Size    MinValue   MaxValue    format
+ -------------------------------------
+ byte  8bits     -128       128         0
+ short 16bits    -32768     32767       0
+ int   32bits   -214783648  214783647   0
+ long  64bits                           0L
+
+
+Floating Point
+float 32bit    0.0f
+double 64bit   0.0 or 0.0d
