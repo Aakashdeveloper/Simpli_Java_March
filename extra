@@ -71,3 +71,25 @@ Intergers Types
 Floating Point
 float 32bit    0.0f
 double 64bit   0.0 or 0.0d
+
+
+////
+Relational Operators
+conditional Assignment
+if else
+nested ifelse
+block statment
+variable scope
+logical Operators
+looping
+array
+switch
+//
+Classes
+Classes Initilazers
+Constructors
+parameters
+classinheritance
+Data Types
+Expection and error handling
+Working with packges

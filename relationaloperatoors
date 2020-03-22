@@ -1,0 +1,145 @@
+Greate Than       >     5>4    'a'>'b'
+Greather Than     >=    5>=4   'c'>='b'
+equal to 
+Less Than         <    5<4    'a'<'b'
+Leas Than         <=   5<=4   'c'<='b'
+equal to 
+equal to         ==    5==5   'c'=='b'    true==true
+Not Equal to     !=    4!=5   'c'!='b'    true!=false
+
+
+/********************
+Conditonal assignment
+********************/
+
+result = condition ? true-value : false-value
+
+reault = 10<5  ? 10-1:10+1
+
+/********************
+If Else
+********************/
+if(condition)
+    true-statement;
+else
+    false-statement;
+
+/********************
+logical operaters
+********************/
+
+And        &
+OR         |
+XOR        ^
+Negation   !
+
+
+int  a = 20,b=14,c=5;
+if(a>b & b>c)
+    System.out.println("a is greater than c")
+
+true  => false
+false  => true
+
+/********************
+ Conditional logical operaters
+********************/
+Conditional And   &&
+Conditional OR    ||
+
+&& only execute right-side if left-side is true
+|| only execute right-side if left-side is false
+
+if(a>b & b>c)
+
+if(10>5 && 10==5)
+if(10>5 || 10==5)
+
+you are admin  && you have access  = "Allow" 
+
+you are admin || you have access ="allow"
+
+/********************
+ Switch Case
+********************/
+switch(condition){
+    case out1:
+        execute
+    case out2:
+        execute
+    default:
+        execute
+}
+
+
+/********************
+Looping
+********************/
+While Loop
+Do while Loop
+For loop 
+
+While => Repeatedly execute a statement as
+long as the condition is true
+> condition check at loop start
+> statement may never execute
+
+
+int Kval = 5;
+int factorial = 1;
+
+while(kVal>1){
+    factorial *= kVal;
+    kVal -= 1;
+}
+
+System.out.println(factorial)
+
+DoWhile
+Repeatedly execute a statement as
+long as the condition is true
+> condition check at loop end
+> statement always  execute atleast once
+
+int kVal = 5;
+int factorial = 1;
+
+do{
+   factorial *= kVal;
+    kVal -= 1; 
+}while(kVal>1)
+System.out.println(factorial)
+
+
+For
+Repeatedly execute a statement as
+long as the condition is true
+> condition check at loop start
+> Proivde simplified notation for loop
+    control value
+
+
+for(int factorial=1; kVal>1; kVal--){
+    factorial *= kVal
+}
+System.out.println(factorial)
+
+/********************
+Array
+********************/
+Provides an ordeered collection of elements
+Each elements accessed via an index
+index range from 0 to 9
+Number of elements can be found via array length
+
+10.0f 20.0f 30.0f
+
+float[] mymarks = new float[3];
+mymarks[0] = 10.0f;
+mymarks[1] = 20.0f;
+mymarks[2] = 30.0f;
+
+System.out.println(mymarks)
+
+
+

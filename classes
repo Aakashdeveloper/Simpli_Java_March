@@ -1,0 +1,77 @@
+Java is Object oriented language
+
+Object encapsulate data, operations and usage semantics
+> Allows stroage and manipulation details to be hidden
+> Separte "what" is to be done from "how" it is done
+
+
+Classes
+
+A class is made up of both state and executable code
+-fields
+    > Store object state
+-Method
+    > executable codethat manipulates state and performs operations
+- Constructors
+    >executable code used during object creation to set inital state
+
+Flight.Java
+
+class Flight{
+    int passengers;
+    int seats;
+
+    Flight(){
+        seats = 150;
+        passengers =0
+    }
+
+    void add1Passenger(){
+        if(passengers < seats){
+            passengers +=1
+        }
+    }
+}
+
+With new keyword we create instance/object of class;
+
+Flight nycToSf;
+nycToSf = new Flight();
+
+Flight slcToDallas = new Flight()
+slcToDallas.add1Passenger()
+
+
+/**********************
+Basic Access Modifiers
+v**********************/
+
+Public  => Everywhere
+Private => Only within the own class
+
+
+public class Flight{
+    private int passengers;
+    private int seats;
+
+    public Flight(){
+        seats = 150;
+        passengers =0
+    }
+
+    public void add1Passenger(){
+        if(passengers < seats){
+            passengers +=1
+        }else{
+            handleToMany()
+        }
+    }
+
+    private void handleToMany(){
+        System.out.println("TOo many passengers")
+    }
+}
+
+Flight flight1 = new Flight();
+flight1.add1Passenger();
+flight1.handleToMany() //not accesible

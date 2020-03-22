@@ -16,7 +16,13 @@ public class typeconversion {
         short result3 = (short)(byteVal - longVal);
         double result4 = shortVal - longVal +floatVal + doubleVal;
 
-        System.out.println("Running");
+        int test1 = 10;
+        int test2 = 20;
+
+        String output = test1<test2 ? "hiii":"bie";
+        int output1 = test1>test2 ? test1+test2:test1-test2;
+
+        System.out.println("Running " + output1);
 
     }
 }
