@@ -22,8 +22,7 @@ class Flight{
     int seats;
 
     Flight(){
-        seats = 150;
-        passengers =0
+    
     }
 
     void add1Passenger(){

@@ -84,12 +84,20 @@ logical Operators
 looping
 array
 switch
-//
 Classes
 Classes Initilazers
 Constructors
-parameters
-classinheritance
+Constructors chaining 
+initilization block
+initilization & Constructors order
+Overloading
+/////
+
+Inheritance
+Final
+Abstract
 Data Types
 Expection and error handling
 Working with packges
+
+

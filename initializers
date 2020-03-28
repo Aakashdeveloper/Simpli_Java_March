@@ -1,0 +1,139 @@
+//TO set value to varibale or field///
+Field initializers
+constructors
+initialization block
+
+field intial state
+
+byte, short, int, long = 0
+float double = 0.0
+char = '\u0000'
+boolean = false
+reference type = null
+
+
+////////Field initializers/////////
+
+>  Can be a simple assignment
+>  Can be an equation
+>  Can reference to other field
+>  Can be a method call
+
+public class Earth{
+    long circumferenceInMiles = 24901;
+    long circumferenceInKilometers = (long)(24901*1.6d)
+    long circumferenceInKilometers = (long)(circumferenceInMiles*1.6d)
+    long circumferenceInKilometers = Math.round(circumferenceInMiles*1.6d)
+}
+
+Math.round(10.5)
+11
+Math.round(10.4)
+10
+
+
+///constructors/////
+Executable code used during object creation to set the initial state
+> Have no return type
+> Every class has atleast one constructors
+ > if no explicit constructors 
+> A classs can have multiple constructors
+    > Each with different parameter list
+
+>>>>>>>>constructors Chaining<<<<<<<<<
+> One constructors can call another
+- Use the this keyword followed by the parameter list
+- Must be the first line
+
+>>>>>>>>constructors Visibility<<<<<<<<<
+> Use access modifier to control constructors Visibility
+- Limits what code can perform specific creatios
+
+
+
+class Flight{
+    private int passengers = 0;
+    private int seats = 150;
+
+    public Flight(){
+
+    }
+}
+
+
+public classs Passengers{
+    private int  checkBags;
+    private int freeBags;
+    private double perBagFree;
+
+    public Passenger() {}
+    
+    public Passenger(int freeBags){
+        this(freeBags > 1 ?25.0d: 50.0d);
+        this.freeBags = freeBags;
+    }
+
+    public Passenger(int freeBags, int checkBags){
+       this(freeBags);
+        //this.freeBags = freeBags;
+        this.checkBags = checkBags;
+    }
+
+    private Passenger(double perBagFee){
+        this.perBagFee = perBagFee
+    }
+}
+
+
+Passenger bob = new Passenger();
+bob.setCheckedBags(3)
+
+Passenger bob = new Passenger(3);
+bob.setCheckedBags(3)
+
+Passenger Jane = new Passenger(2,3)
+
+////////initializer Block//////////////
+initialization block shared acroos all constructors
+- Executed as if the code were place at the start of Each constructors
+
+class Flight{
+    private int passengers, flightNumber, seats= 150;
+    private char flightClass;
+    private boolean[] isSeatAvailable;
+
+    {
+        isSeatAvailable = new boolean[seats];
+
+        for(int i =0 ; i< seats;i++ ){
+            isSeatAvailable[i] =  true;
+        }
+    }
+
+    public Flight(int flightNumber){
+        this.flightNumber = flightNumber;
+    }
+
+    public Flight(char flightClass){
+        this.flightClass
+    }
+}
+
+
+
+public class OverInitializedClass{
+    private int thisField = 1
+    public int getThisField(){ return thisField}
+   
+    {
+        thisField = 2; 
+    }
+
+    public OverInitializedClass(){
+        thisField = 3
+    }
+}
+
+OverInitializedClass myval = new OverInitializedClass()
+System.out.println(myval.getThisField()) = 3
+

@@ -1,0 +1,64 @@
+A Class may have multiple verisons of its constructor 
+or methods knows a overloading
+
+Each constructor and methods must have a unique signature
+
+Signature is made up of 3 parts
+Name
+Number of parameters
+Type of each parameters
+
+public class Flight {
+    private passenger =0;
+    private bags = 0;
+    private carryOns = 0;
+    public int getPassenger(){ return passenger};
+    public int getBags(){ return bags};
+
+    public void add1Passenger(){
+        if(hasSeating()){
+            passenger +=1
+        }else{
+            handleTooMany()
+        }
+    }
+
+    public void add1Passenger(int bags){
+        if(hasSeating()){
+            add1Passenger()
+            totalBags += bags
+        }
+    }
+    public void add1Passenger(Passenger p){
+        add1Passenger(p.getBags());
+    }
+
+    public void add1Passenger(int bags, int carryOns){
+        if(hasSeating() && hasCarryOnSpace(carryOns)){
+            add1Passenger()
+            totalCarryOns += totalCarryOns
+        }
+    }
+
+    public void add1Passenger(Passenger p){
+        add1Passenger(p.getBags());
+    }
+
+    public void add1Passenger(Passenger p, int carryOns){
+        add1Passenger(p.getBags(), carryOns)
+    }
+
+}
+
+Flight f = new Flight()
+
+Passenger p1 = new Passenger(0,1)
+Passenger p2 = new Passenger(0,2)
+
+f.add1Passenger()
+f.add1Passenger(2);
+f.add1Passenger(p1);
+
+short threebags = 3
+f.add1Passenger(threebags,2)
+
