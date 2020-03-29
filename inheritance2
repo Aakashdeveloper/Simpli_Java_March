@@ -1,0 +1,56 @@
+public class CargoFlight extends Flight{
+    //int seats = 12;
+
+    @Override
+    int getSeats(){ return 12}
+
+    float maxCargoSpace = 1000.0f;
+    float usedCargoSpace;
+
+    public void add1Package(float h,float w,float d){
+        double size = h*w*d;
+        if(hasCargoSpace(size))
+            usedCargoSpace += size;
+        else
+            handleNoSpace
+    }
+
+    private boolean hasCargoSpace(float size){
+        return usedCargoSpace+ size <= maxCargoSpace
+    }
+
+    private void handleNoSpace(){
+        System.out.println("Not Enough Space")
+    }
+}
+
+
+public final class Flight{
+   //int seats = 150
+   int getSeats(){ return 150}
+
+    public void add1Passenger(){
+        if(hasSeating()){
+            passenger +=1
+        }else{
+            handleTooMany()
+        }
+    }
+
+    private boolean hasSeating(){
+        return passengers < getSeats();
+    }
+}
+f2.add1Passenger();
+
+Flight f1 = new Flight()
+System.out.println(f1.seats) == 150
+
+CargoFlight cf = new CargoFlight;
+System.out.println(cf.seats) == 12
+
+Flight f2 = new CargoFlight();
+System.out.println(f2.seats) == 12
+
+f2.add1Passenger();
+cf.add1Passenger();

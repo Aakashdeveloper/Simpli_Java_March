@@ -1,0 +1,79 @@
+Parameter Immutability
+
+> Parameters are passeed by making a copy of the value 
+    Known as passing "by value"
+
+> Changes made to passed value are not visible outside the method
+> Changes made to members of passeed class instances are visible outside of method
+=======================
+val1 10
+val2 20
+
+i =10
+j = 20
+
+k =10
+
+i = 20
+j = 10
+========================
+
+int val1 = 10;
+int val2 = 20;
+    //print val1 & val2    10 20 
+swap(val1,val2)
+
+void swap(int i, int j){
+    int k = i
+    i = j;
+    j = k;
+    print i & j
+}   20 10
+
+
+Parameter Immutability: Classes
+
+public class Flight{
+    int flightNumber;
+
+    public Flight(int flightNumber){
+        this.flightNumber = flightNumber;
+    }
+}
+
+Flight val1 = new Flight(10);
+Flight val2 = new Flight(20);      val1 = 10 & val2=20
+
+swap(val1,val2)
+val1 10
+val2 20
+
+
+val1 ==========> FlightNumber 10        <=============K,J
+val2 ==========> flightNumber 20        <=============i
+
+
+void swap(flight i, flightj){
+    Flight k = i;
+    i=j;
+    j=k;
+    print i & j   i =20, j=10
+
+}
+
+///////////////////////////////////
+Flight val1 = new Flight(10);
+Flight val2 = new Flight(20);      val1 = 10 & val2=20
+
+swapNumbers(val1,val2)
+ val1 = 20 & val2=10
+
+val1 ==========> FlightNumber 20        <=============i
+val2 ==========> flightNumber 10        <=============j
+
+K = 10
+
+void swapNumbers(Flight i, Flight j){
+    int k = i.getFlightNumber();
+    i.setFlightNumber(j.getFlightNumber());
+}

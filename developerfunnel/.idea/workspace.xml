@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d9646f0-d8f1-4765-83e0-af13800fca90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/MathEquationConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/MathEquationOverload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/classCalcConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/classCalcOverLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classes" beforeDir="false" afterPath="$PROJECT_DIR$/../classes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/developerfunnel/com/developerfunnel/myapp/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/developerfunnel/com/developerfunnel/myapp/Flight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/developerfunnel/com/developerfunnel/myapp/FlightLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/developerfunnel/com/developerfunnel/myapp/FlightLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/developerfunnel/com/developerfunnel/myapp/MathEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/developerfunnel/com/developerfunnel/myapp/MathEquation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/developerfunnel/com/developerfunnel/myapp/classCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/developerfunnel/com/developerfunnel/myapp/classCalc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/developerfunnel/myapp/MathEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/MathEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/developerfunnel/myapp/classCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/classCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extra" beforeDir="false" afterPath="$PROJECT_DIR$/../extra" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firstappjava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstappjava/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,26 +135,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="186" key="GridCell.Tab.0.bottom" timestamp="1585414512042">
+    <state width="1358" height="186" key="GridCell.Tab.0.bottom" timestamp="1585498733690">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="186" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585414512042" />
-    <state width="1358" height="186" key="GridCell.Tab.0.center" timestamp="1585414512030">
+    <state width="1358" height="186" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585498733690" />
+    <state width="1358" height="186" key="GridCell.Tab.0.center" timestamp="1585498733690">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="186" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585414512030" />
-    <state width="1358" height="186" key="GridCell.Tab.0.left" timestamp="1585414512026">
+    <state width="1358" height="186" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585498733690" />
+    <state width="1358" height="186" key="GridCell.Tab.0.left" timestamp="1585498733689">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="186" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585414512026" />
-    <state width="1358" height="186" key="GridCell.Tab.0.right" timestamp="1585414512041">
+    <state width="1358" height="186" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585498733689" />
+    <state width="1358" height="186" key="GridCell.Tab.0.right" timestamp="1585498733690">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="186" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585414512041" />
+    <state width="1358" height="186" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585498733690" />
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1585404383515">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1585404383515" />
+    <state x="97" y="84" key="new project wizard" timestamp="1585497235996">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="97" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1585497235996" />
     <state x="376" y="223" width="670" height="676" key="search.everywhere.popup" timestamp="1584809765523">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

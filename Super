@@ -1,0 +1,30 @@
+Similar to this, super is an implicit reference to the current object
+
+> Super treats the object as if it is an instance of base class
+> Useful for accessing base class members that have been overridden
+
+
+class Flight extends Object{
+    private int flightNumber;
+    private char flightClass;
+
+    @Override
+    public boolean equals(Oject o){
+
+            if(super.equals(o))
+                return true
+
+            if(!(o instanceof Flight))
+                return false
+            Flight other = (Flight) o;
+            return
+            flightNumber == other.flightNumber &&
+            flightClass == other.flightClass; 
+    }
+}
+
+
+
+
+
+

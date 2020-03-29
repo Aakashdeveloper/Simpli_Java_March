@@ -91,13 +91,23 @@ Constructors chaining
 initilization block
 initilization & Constructors order
 Overloading
-/////
-
 Inheritance
 Final
 Abstract
 Data Types
+/////
+
+
 Expection and error handling
 Working with packges
 
 
+Step 1 Download&Install Docker
+https://docs.docker.com/docker-for-windows/install/
+
+Step2 SetUp Postgress
+>https://hackernoon.com/dont-install-postgres-docker-pull-postgres-bee20e200198
+
+Step3
+Download PgAdmin
+> https://www.pgadmin.org/

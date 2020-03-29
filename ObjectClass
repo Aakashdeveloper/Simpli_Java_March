@@ -1,0 +1,16 @@
+The Object Class is the root  of the java class hierarchy
+> Every class has the characteristics of the Object class
+
+> Useful for declaring varibale, field and parameters 
+that can referncwc to any class or array instance
+
+> Defines a number of method that are inherited by all object
+
+clone => Create a new object instance that duplicate the current instance
+hashCode=> Get a hash codee for the current instance
+getClass => Return the type information for the current instnace
+finalize=> Handle Special resourcees cleanup scenarios
+toString =>  Reeturn string of characters represting thee current instance
+equals=>  Compare another object to the current instance for equality
+
+

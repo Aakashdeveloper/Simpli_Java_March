@@ -1,0 +1,38 @@
+By Default all classes can be extended and derived classes have 
+the option to use or override inherited method
+>  A class can change these Default
+
+> Use final to prevent inheriting and/or overriding
+> Use abstract to require inheriting and/or overriding
+
+
+public class Pilot {
+    private Flight currentFlight;
+
+    public void fly(Flight f){
+        if(canAccept(f))
+            currentFlight = f;
+        else
+            handleCantAccept()
+    }
+
+    public abstract boolean canAccept(Flight f);
+
+    private void handleCantAccept(){
+        System.out.println("Can't accept flight")
+    }
+}
+
+public class CargoFlight extends Pilot{
+    @Override
+    public boolean canAccept(Flight f){
+        return f.getPassengers() == 0
+    }
+}
+
+public class FullLicensePilot extended Pilot{
+     @Override
+    public boolean canAccept(Flight f){
+        return true;
+    }
+}

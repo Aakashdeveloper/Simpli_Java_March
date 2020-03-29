@@ -1,0 +1,25 @@
+Flight f1 = new Flight(170);
+Fligth f2 = new Flight(170);
+
+if(f1 == f2 ){  /// False
+}
+
+if(f1.equals(f2)){//false
+
+}
+
+class Flight extends Object{
+    private int flightNumber;
+    private char flightClass;
+
+    @Override
+    public boolean equals(Oject o){
+            Flight other = (Flight) o;
+            return
+            flightNumber == other.flightNumber &&
+            flightClass == other.flightClass; 
+    }
+}
+
+Passenger p = new Passenger();
+if(f1.equals(p))/// false
