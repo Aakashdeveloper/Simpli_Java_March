@@ -24,4 +24,4 @@ class BinarySearchExample{
         int last=arr.length-1;
         binarySearch(arr,0,last,key);
     }
-}  
+}
