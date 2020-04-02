@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d9646f0-d8f1-4765-83e0-af13800fca90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/BinarySearchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/Edureka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/StringFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/TestStringFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/fabonici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/palindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/developerfunnel/myapp/patteren.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +41,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.classCalcOverLoad">
-    <configuration name="Flight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.Flight" />
+  <component name="RunManager" selected="Application.BinarySearchExample">
+    <configuration name="BinarySearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.BinarySearchExample" />
       <module name="developerfunnel" />
       <extension name="coverage">
         <pattern>
@@ -47,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.classCalc" />
+    <configuration name="Edureka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.Edureka" />
       <module name="developerfunnel" />
       <extension name="coverage">
         <pattern>
@@ -60,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classCalcConstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.classCalcConstruct" />
+    <configuration name="TestStringFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.TestStringFormatter" />
       <module name="developerfunnel" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classCalcOverLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.classCalcOverLoad" />
+    <configuration name="patteren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.patteren" />
       <module name="developerfunnel" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="switcharrayloopcalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.switcharrayloopcalc" />
+    <configuration name="patteren2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.developerfunnel.myapp.patteren2" />
       <module name="developerfunnel" />
       <extension name="coverage">
         <pattern>
@@ -100,19 +108,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.switcharrayloopcalc" />
-      <item itemvalue="Application.Flight" />
-      <item itemvalue="Application.classCalc" />
-      <item itemvalue="Application.classCalcConstruct" />
-      <item itemvalue="Application.classCalcOverLoad" />
+      <item itemvalue="Application.patteren" />
+      <item itemvalue="Application.patteren2" />
+      <item itemvalue="Application.Edureka" />
+      <item itemvalue="Application.TestStringFormatter" />
+      <item itemvalue="Application.BinarySearchExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.classCalcOverLoad" />
-        <item itemvalue="Application.classCalcConstruct" />
-        <item itemvalue="Application.classCalc" />
-        <item itemvalue="Application.Flight" />
-        <item itemvalue="Application.switcharrayloopcalc" />
+        <item itemvalue="Application.BinarySearchExample" />
+        <item itemvalue="Application.TestStringFormatter" />
+        <item itemvalue="Application.patteren" />
+        <item itemvalue="Application.Edureka" />
+        <item itemvalue="Application.patteren2" />
       </list>
     </recent_temporary>
   </component>
@@ -135,26 +143,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="186" key="GridCell.Tab.0.bottom" timestamp="1585498733690">
+    <state width="1358" height="186" key="GridCell.Tab.0.bottom" timestamp="1585837612706">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="186" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585498733690" />
-    <state width="1358" height="186" key="GridCell.Tab.0.center" timestamp="1585498733690">
+    <state width="1358" height="186" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585837612706" />
+    <state width="1358" height="186" key="GridCell.Tab.0.center" timestamp="1585837612705">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="186" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585498733690" />
-    <state width="1358" height="186" key="GridCell.Tab.0.left" timestamp="1585498733689">
+    <state width="1358" height="186" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585837612705" />
+    <state width="1358" height="186" key="GridCell.Tab.0.left" timestamp="1585837612705">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="186" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585498733689" />
-    <state width="1358" height="186" key="GridCell.Tab.0.right" timestamp="1585498733690">
+    <state width="1358" height="186" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585837612705" />
+    <state width="1358" height="186" key="GridCell.Tab.0.right" timestamp="1585837612706">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="186" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585498733690" />
-    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1585404383515">
+    <state width="1358" height="186" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585837612706" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1585502826822">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1585404383515" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1585502826822" />
     <state x="97" y="84" key="new project wizard" timestamp="1585497235996">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
