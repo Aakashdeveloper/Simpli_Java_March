@@ -111,3 +111,27 @@ FROM orders LEFT JOIN customers ON orders.customerNumber=customers.customerNumbe
 
 SELECT orders.customerNumber, customers.customerName,COUNT(orders.orderNumber) AS totalorder
 FROM orders LEFT JOIN customers ON orders.customerNumber=customers.customerNumber Group BY customerNumber HAVING COUNT(orders.orderNumber) >5;
+
+SELECT customerName FROM customers WHERE exists(SELECT checkNumber from payments 
+where payments.customerNumber= customers.customerNumber AND amount <1000);
+
+SELECT productName, quantityInStock from products 
+where productCode = ANY(SELECT productCode from orderdetails where quantityOrdered >80)
+
+SELECT productName, quantityInStock from products 
+where productCode = ALL(SELECT productCode from orderdetails where quantityOrdered >80)
+
+SELECT firstNamme,lastName INTO SimpliEmp FROM Employee where name = "d";
+
+INSERT INTO table2 SELECT * FROM table1 WHERE condition;
+
+SELECT orderNumber, quantityOrdered,
+CASE
+    WHEN quantityOrdered >40 THEN 'The quantity is big'
+    WHEN quantityOrdered >30 THEN 'The quantity is medim'
+    ELSE 'The quantity is small'
+END AS OrderType
+FROM orderdetails;
+
+Map Reduce
+Stored PROCEDURE

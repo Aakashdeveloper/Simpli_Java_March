@@ -1,0 +1,311 @@
+show dbs
+use classdatabase
+show collections
+
+db.movies.find().pretty()
+
+db.movies.find({rate:4.5,language:"ENGLISH"}).pretty()
+
+db.movies.find({rate:4.5,language:"ENGLISH"},{name:1,language:1,_id:0}).pretty()
+db.movies.find({rate:4.5,language:"ENGLISH"},{_id:0}).pretty()
+
+true   === 1
+false  === 0
+db.movies.find({rate:{$gt:4}}).pretty()
+db.movies.find({rate:{$lt:4}}).pretty()
+
+db.movies.find({type:{$in:["Action","Adventure"]}}).pretty()
+
+db.movies.find({type:{$in:["Action","Adventure"]}}).pretty()
+db.movies.find({rate:{$elemMatch:{language:'English',rate:{$gt:4}}}}).pretty()
+
+db.movies.find().sort({name:1,rate:-1}).pretty()
+
+db.movies.find().sort({name:1,rate:-1}).limit(2).pretty()
+
+db.movies.findOne()
+db.movies.find().sort({name:1,rate:-1}).skip(2).limit(2).pretty()
+
+db.movies.count()
+
+
+//////Create Database////////
+use aprjava
+db.marks.insert({name:"john",rollno:1,hindi:80})
+db.marks.insert({_id:2,name:"aakash",rollno:3,java:80})
+db.marks.insert({_id:1,name:"vipul",rollno:2,english:80})
+
+db.resturents.insertMany(
+    [
+    {
+      "name": "Hopdoddy Burger Bar",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/hopdoddy.png",
+      "category": "Burgers",
+      "contact": {
+        "phone": "9723872337",
+        "formattedPhone": "(972) 387-2337",
+        "twitter": "hopdoddy"
+      },
+      "location": {
+        "address": "5100 Belt Line Road, STE 502",
+        "crossStreet": "Dallas North Tollway",
+        "lat": 32.950787,
+        "lng": -96.821118,
+        "postalCode": "75254",
+        "cc": "US",
+        "city": "Addison",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "5100 Belt Line Road, STE 502 (Dallas North Tollway)",
+          "Addison, TX 75254",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Pappadeaux Seafood Kitchen",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/pappadeaux.png",
+      "category": "Seafood",
+      "contact": {
+        "phone": "9724479616",
+        "formattedPhone": "(972) 447-9616",
+        "twitter": "pappadeaux"
+      },
+      "location": {
+        "address": "18349 Dallas Pkwy",
+        "crossStreet": "at Frankford Rd.",
+        "lat": 32.99908456526653,
+        "lng": -96.83018780592823,
+        "postalCode": "75287",
+        "cc": "US",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "18349 Dallas Pkwy (at Frankford Rd.)",
+          "Dallas, TX 75287",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Yard House",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/yardhouse.png",
+      "category": "Tap House",
+      "contact": {
+        "phone": "9727164004",
+        "formattedPhone": "(972) 716-4004",
+        "twitter": "yardhouse",
+        "facebook": "92873089221",
+        "facebookUsername": "YardHouse",
+        "facebookName": "Yard House"
+      },
+      "location": {
+        "address": "5100 Belt Line Rd",
+        "lat": 32.95061646,
+        "lng": -96.81974196,
+        "postalCode": "75254",
+        "cc": "US",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "5100 Belt Line Rd",
+          "Dallas, TX 75254",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Pluckers Wing Bar",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/pluckers.png",
+      "category": "Wing Joint",
+      "contact": null,
+      "location": {
+        "address": "5100 Beltline Rd",
+        "lat": 32.95097877918451,
+        "lng": -96.82020769859702,
+        "cc": "US",
+        "city": "Addison",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "5100 Beltline Rd",
+          "Addison, TX",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Ramen Hakata",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/ramen_hakata.png",
+      "category": "Japanese",
+      "contact": {
+        "phone": "9722472401",
+        "formattedPhone": "(972) 247-2401",
+        "twitter": "ramenhakata"
+      },
+      "location": {
+        "address": "3714 Belt Line Rd",
+        "crossStreet": "Marsh",
+        "lat": 32.95270483276971,
+        "lng": -96.85424159312772,
+        "postalCode": "75001",
+        "cc": "US",
+        "city": "Addison",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "3714 Belt Line Rd (Marsh)",
+          "Addison, TX 75001",
+          "United States"
+        ]
+      }
+    }
+  ]
+)
+
+db.mall.insertMany(
+    [
+    {
+      "name": "Hopdoddy Burger Bar",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/hopdoddy.png",
+      "category": "Burgers",
+      "contact": {
+        "phone": "9723872337",
+        "formattedPhone": "(972) 387-2337",
+        "twitter": "hopdoddy"
+      },
+      "location": {
+        "type": "Point",
+        "address": "5100 Belt Line Road, STE 502",
+        "crossStreet": "Dallas North Tollway",
+        "coordinates":[32.950787,-96.821118],
+        "postalCode": "75254",
+        "cc": "US",
+        "city": "Addison",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "5100 Belt Line Road, STE 502 (Dallas North Tollway)",
+          "Addison, TX 75254",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Pappadeaux Seafood Kitchen",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/pappadeaux.png",
+      "category": "Seafood",
+      "contact": {
+        "phone": "9724479616",
+        "formattedPhone": "(972) 447-9616",
+        "twitter": "pappadeaux"
+      },
+      "location": {
+        "type": "Point",
+        "address": "18349 Dallas Pkwy",
+        "crossStreet": "at Frankford Rd.",
+        "coordinates":[32.99908456526653,-96.83018780592823],
+        "postalCode": "75287",
+        "cc": "US",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "18349 Dallas Pkwy (at Frankford Rd.)",
+          "Dallas, TX 75287",
+          "United States"
+        ]
+      }
+    }
+  ]
+)
+
+db.resturents.find({},{name:1,_id:0,'location.city':1})
+db.resturents.distinct('location.city')
+
+db.marks.remove({rollno:1})
+db.marks.drop()
+
+db.marks.update({rollno:4}, 
+    {$set:
+        {
+        name:"Ammy",
+        rollno:4,
+        english:80 
+        }
+    },
+    {
+        upsert:true
+    }
+)
+
+
+db.resturents.createIndex({name:"text"})
+
+db.resturents.find({$text:{$search:"Burger"}})
+db.resturents.find({name:{$regex :'[a-z]'}})
+
+
+regex
+^[0-9]$
+^[a-zA-Z]$
+^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-z]{2-5})$
+
+db.mall.createIndex({location:"2dsphere"})
+
+db.neighborhoods.findOne({ geometry: { $geoIntersects: { $geometry: { type: "Point", coordinates: [ -73.93414657, 40.82302903 ] } } } })
+
+db.places.find({
+    location:{
+        $near:{
+            $geometry:{
+                type:"Point",
+                coordinates: [-122.166041, 37.4278925]},
+            $maxDistance:8000
+            }
+        }
+}).pretty()
+
+db.orders.insert([
+   { "_id" : 1, "item" : "almonds", "price" : 12, "quantity" : 2 },
+   { "_id" : 2, "item" : "pecans", "price" : 20, "quantity" : 1 },
+   { "_id" : 3  }
+])
+db.inventory.insert([
+   { "_id" : 1, "sku" : "almonds", description: "product 1", "instock" : 120 },
+   { "_id" : 2, "sku" : "bread", description: "product 2", "instock" : 80 },
+   { "_id" : 3, "sku" : "cashews", description: "product 3", "instock" : 60 },
+   { "_id" : 4, "sku" : "pecans", description: "product 4", "instock" : 70 },
+   { "_id" : 5, "sku": null, description: "Incomplete" },
+   { "_id" : 6 }
+])
+
+db.orders.aggregate([
+   {
+     $lookup:
+       {
+         from: "inventory",
+         localField: "item",
+         foreignField: "sku",
+         as: "inventory_docs"
+       }
+  }
+])
+
+
+db.ord.insert([
+{ _id: 1, cust_id: "abc1", ord_date: ISODate("2012-11-02T17:04:11.102Z"), status: "A", amount: 50 },
+{ _id: 2, cust_id: "xyz1", ord_date: ISODate("2013-10-01T17:04:11.102Z"), status: "A", amount: 100 },
+{ _id: 3, cust_id: "xyz1", ord_date: ISODate("2013-10-12T17:04:11.102Z"), status: "D", amount: 25 },
+{ _id: 4, cust_id: "xyz1", ord_date: ISODate("2013-10-11T17:04:11.102Z"), status: "D", amount: 125 },
+{ _id: 5, cust_id: "abc1", ord_date: ISODate("2013-11-12T17:04:11.102Z"), status: "A", amount: 25 }
+])
+
+db.ord.aggregate([
+                     { $match: { status: "A" } },
+                     { $group: { _id: "$cust_id", total: { $sum: "$amount" } } },
+                     { $sort: { total: -1 } }
+                   ])

@@ -111,3 +111,58 @@ Step2 SetUp Postgress
 Step3
 Download PgAdmin
 > https://www.pgadmin.org/
+
+
+
+Sno |  Hindi  | English | Phys
+1   |    80   |         |
+2   |         |   80    |
+3   |         |         |  80
+
+
+JavaScript Object Notation
+[
+    {
+     sno:1,
+     hindi:80
+    },
+    {
+     sno:2,
+     English:80
+    },
+    {
+     sno:3,
+     phys:80
+    }
+]
+
+
+///MongoDB////
+https://www.mongodb.com/download-center/community
+
+#Mac
+> /System/Volumes/Data/data/db
+> mongod 
+> mongo
+
+#windows
+> C:\data\db
+> MongoServer
+> Navigate to bin folder (C:\ProgramFile\MongoDB\4.5\bin\)
+> mongod 
+> Navigate to bin folder (C:\ProgramFile\MongoDB\4.5\bin\)
+> mongo 
+
+
+Mysql = 3306
+postgres => 5432
+mongo > 27017
+Redis => 6379
+
+
+SQl            NoSQL
+database       database
+Table          collection
+row            documents
+
+//////////////////////////////////
