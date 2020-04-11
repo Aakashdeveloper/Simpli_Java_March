@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d9646f0-d8f1-4765-83e0-af13800fca90" name="Default Changelist" comment="" />
+    <list default="true" id="0d9646f0-d8f1-4765-83e0-af13800fca90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,11 +100,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.patteren" />
-      <item itemvalue="Application.patteren2" />
+      <item itemvalue="Application.BinarySearchExample" />
       <item itemvalue="Application.Edureka" />
       <item itemvalue="Application.TestStringFormatter" />
-      <item itemvalue="Application.BinarySearchExample" />
+      <item itemvalue="Application.patteren2" />
+      <item itemvalue="Application.patteren" />
     </list>
     <recent_temporary>
       <list>
@@ -149,14 +151,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="186" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585837757345" />
-    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1585502826822">
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1586512854006">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1585502826822" />
-    <state x="97" y="84" key="new project wizard" timestamp="1585497235996">
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1586512854006" />
+    <state x="81" y="108" key="new project wizard" timestamp="1586513389613">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="97" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1585497235996" />
+    <state x="81" y="108" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1586513389613" />
     <state x="376" y="223" width="670" height="676" key="search.everywhere.popup" timestamp="1584809765523">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

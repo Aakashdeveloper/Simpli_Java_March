@@ -1,0 +1,14 @@
+cd Downloads
+
+mv apche /Application/
+cd /User/avi/
+ls -l
+ls -a 
+.bash_profile
+open -e .bash_profile
+
+export M2_HOME=/Applications/apache-maven-3.6.3
+export PATH=$PATH:$M2_HOME/bin
+source .bash_profile
+
+
