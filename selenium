@@ -1,0 +1,38 @@
+NO INBUILT OBJECT RESPOSITORY   => GITLAB
+CONNOT PERFFORM IMAGE TESTING  => SIKULI    
+NO Offical Support => Open Source
+No Native support too generate test Report  => TestNG 
+
+
+
+data driven TESTING
+Parameterization
+IDE
+
+
+
+Development Environment
+Ant & Maven gradle build tools 
+TestNG & JUnittesting
+
+Programming Lang
+JIT compileers 
+Improved JVM
+
+Web Application
+Business Process
+Database access on the server
+
+<a id="first" class="abc"></a>
+
+id 
+classname
+tagname
+
+div a{
+
+}
+
+div>a{
+    
+}
